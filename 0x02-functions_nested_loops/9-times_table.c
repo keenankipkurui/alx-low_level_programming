@@ -1,9 +1,15 @@
 #include <unistd.h>
 #include "main.h"
 /**
+<<<<<<< HEAD
+   * times_table - Print the 9 times table, starting with 0
+    * Return: 0
+     */
+=======
  * times_table - Print the 9 times table, starting with 0
  * Return: 0
  */
+>>>>>>> c007eff502f21eec09b729fffe199baf973a0bc7
 void times_table(void)
 {
 	int x = 0; /* factor */
@@ -27,6 +33,23 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(z + '0');
 			}
+<<<<<<< HEAD
+																												else
+																																{
+																																					_putchar(z + '0');
+																																								}
+
+																															if (y != 9)
+																																			{
+																																								_putchar(',');
+																																												_putchar(' ');
+																																															}
+																																		y++;
+																																				}
+														_putchar('\n');
+																x++;
+																	}
+=======
 			else
 			{
 				_putchar(z + '0');
@@ -42,4 +65,5 @@ void times_table(void)
 		_putchar('\n');
 		x++;
 	}
+>>>>>>> c007eff502f21eec09b729fffe199baf973a0bc7
 }
